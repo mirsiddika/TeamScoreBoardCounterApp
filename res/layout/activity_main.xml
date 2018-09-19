@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:useDefaultMargins="true"
+    android:screenOrientation="landscape"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="top|center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Team1"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#12942a"
+            android:text="Team 1" />
+
+        <Button
+            android:id="@+id/Team2"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#12942a"
+            android:text="Team 2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/t1score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="top|center"
+            android:text="Score T1"
+            android:textColor="#f5f5f0"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/t2score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="top|center"
+            android:text="Score T2"
+            android:textColor="#f5f5f0"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
